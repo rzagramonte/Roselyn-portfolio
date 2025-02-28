@@ -147,18 +147,19 @@
 
             <!-- Form -->
             <h3>Contact Me</h3>
-            <form id="form" method="post" data-netlify="true">
-              <input type="hidden" name="form-name" value="contact" />  
+            <form id="form" method="post" action="https://formspree.io/f/meoeyozb" name="contact">
               <div class="row gtr-uniform">
                 <div class="col-6 col-12-xsmall">
-                  <input type="text" name="demo-name" id="demo-name" placeholder="Name" required />
+                  <input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
                 </div>
                 <div class="col-6 col-12-xsmall">
-                  <input type="email" name="demo-email" id="demo-email" placeholder="Email" required />
+                  <input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
                 </div>
+                <!-- Break -->
                 <div class="col-12">
-                  <textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6" required></textarea>
+                  <textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
                 </div>
+                <!-- Break -->
                 <div class="col-12">
                   <ul class="actions">
                     <li><input type="submit" value="Send Message" class="primary" /></li>
@@ -166,7 +167,7 @@
                   </ul>
                 </div>
               </div>
-            </form>            
+            </form>
           </section>
 
           <!-- Footer -->
